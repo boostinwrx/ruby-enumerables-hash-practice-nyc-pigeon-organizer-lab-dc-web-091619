@@ -37,10 +37,13 @@ data.each do |key,value|
       end
     end
   if key == :gender
-    data[:gener].each do |gender, array|
+    data[:gender].each do |gender, array|
       if array.include?(name)
         h[name][:gender] << gender.to_s
+      end
+    end
   end
  end
+ binding.pry
 end
 nyc_pigeon_organizer(pigeon_data)
