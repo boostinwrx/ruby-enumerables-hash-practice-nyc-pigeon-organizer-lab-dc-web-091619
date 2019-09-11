@@ -44,7 +44,13 @@ data.each do |key,value|
       end
     end
   end
-  
+ if key == :lives 
+    data[:lives].each do |lives,array|
+      if array.include?(name)
+        h[name][:color] << lives.to_s
+      end
+      end
+    end
  end
  end
 
