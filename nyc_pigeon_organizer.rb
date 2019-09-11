@@ -31,7 +31,8 @@ data.each do |key,value|
   h.each do |name, properties|
   if key == :color 
     data[:color].each do |color,array|
-      binding.pry
+      if array.include(name)
+        h[name][:color] << color
     end
     end
   end
