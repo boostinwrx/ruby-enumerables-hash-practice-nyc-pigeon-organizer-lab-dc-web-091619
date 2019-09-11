@@ -33,7 +33,8 @@ data.each do |key,value|
     data[:color].each do |color,array|
       if array.include(name)
         h[name][:color] << color
-    end
+      end
+      end
     end
   end
  end
