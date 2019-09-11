@@ -36,7 +36,10 @@ data.each do |key,value|
       end
       end
     end
-  if key == :  
+  if key == :gender
+    data[:gener].each do |gender, array|
+      if array.include?(name)
+        h[name][:gender] << gender.to_s
   end
  end
 end
