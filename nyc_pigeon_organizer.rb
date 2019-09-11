@@ -21,11 +21,12 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   h = {}
  data.each do|key, value|
-value.each do |key, name|
-  name.each do |element|
-    binding.pry
+  value.each do |key, name|
+    name.each do |element|
+      h[element] = {:color => [], :gender => [], :lives => []}
     end
   end
  end
+ binding.pry
 end
 nyc_pigeon_organizer(pigeon_data)
