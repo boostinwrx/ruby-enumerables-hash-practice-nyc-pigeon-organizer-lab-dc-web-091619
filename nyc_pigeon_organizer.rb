@@ -1,3 +1,4 @@
+require 'pry'
 pigeon_data = {
         :color => {
           :purple => ["Theo", "Peter Jr.", "Lucky"],
@@ -21,7 +22,7 @@ def nyc_pigeon_organizer(data)
   h = {}
  data.each do|key, value|
 value.each do |key, name|
-  p key
+  binding.pry
   end
  end
 end
