@@ -32,7 +32,7 @@ data.each do |key,value|
   if key == :color 
     data[:color].each do |color,array|
       if array.include?(name)
-        h[name][:color] << color
+        h[name][:color] << color.to_s
       end
       end
     end
