@@ -22,7 +22,9 @@ def nyc_pigeon_organizer(data)
   h = {}
  data.each do|key, value|
 value.each do |key, name|
-  binding.pry
+  name.each do |element|
+    binding.pry
+    end
   end
  end
 end
