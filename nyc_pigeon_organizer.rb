@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
   end
  end
 data.each do |key,value|
-  h.each do |key, value|
+  h.each do |name, properties|
   binding.pry
   end
  end
