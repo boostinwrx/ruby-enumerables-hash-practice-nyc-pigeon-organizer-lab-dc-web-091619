@@ -18,8 +18,8 @@ pigeon_data = {
       }
 
 def nyc_pigeon_organizer(data)
-  data.each do |data|
-    p data[:color]
+  data.each do |key,value|
+    p key
   end
 end
 nyc_pigeon_organizer(pigeon_data)
