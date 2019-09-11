@@ -33,6 +33,7 @@ data.each do |key,value|
     data[:color].each do |color,array|
       binding.pry
     end
+    end
   end
  end
 end
