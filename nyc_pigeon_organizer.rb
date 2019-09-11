@@ -53,6 +53,6 @@ data.each do |key,value|
     end
  end
  end
-
+binding.pry
 end
 nyc_pigeon_organizer(pigeon_data)
