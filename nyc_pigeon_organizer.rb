@@ -35,9 +35,9 @@ data.each do |key,value|
         h[name][:color] << color.to_s
       end
       end
-      if 
     end
   end
+  
  end
  binding.pry
 end
