@@ -19,7 +19,7 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   data.each do |data|
-    p data
+    p data[:color]
   end
 end
 nyc_pigeon_organizer(pigeon_data)
