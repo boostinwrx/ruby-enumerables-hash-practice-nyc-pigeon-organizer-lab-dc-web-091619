@@ -27,6 +27,8 @@ def nyc_pigeon_organizer(data)
     end
   end
  end
- binding.pry
+data.each do |key,value|
+  binding.pry
+ end
 end
 nyc_pigeon_organizer(pigeon_data)
