@@ -3,3 +3,4 @@ def nyc_pigeon_organizer(data)
     p data
   end
 end
+nyc_pigeon_organizer(data)
