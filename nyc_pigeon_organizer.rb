@@ -29,7 +29,10 @@ def nyc_pigeon_organizer(data)
  end
 data.each do |key,value|
   h.each do |name, properties|
-  binding.pry
+  if key == :color 
+    data[:color].each do |color,array|
+      binding.pry
+    end
   end
  end
 end
