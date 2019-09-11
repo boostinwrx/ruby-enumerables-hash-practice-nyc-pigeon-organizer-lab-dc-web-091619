@@ -36,7 +36,7 @@ data.each do |key,value|
       end
       end
     end
-    
+  if key == :  
   end
  end
 end
